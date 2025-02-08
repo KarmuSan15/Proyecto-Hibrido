@@ -1,4 +1,3 @@
-// ProfileScreen.js
 import React, { useState } from "react";
 import { View, Text, StyleSheet, Image, TouchableOpacity } from "react-native";
 
@@ -6,7 +5,7 @@ export default function ProfileScreen() {
   const [user, setUser] = useState({
     name: "Beatrix LeBeau",
     email: "beatrix@slimerancher.com",
-    profilePic: "https://www.solojugadores.com/wp-content/uploads/2022/09/Slime-Rancher-2-precio-novedades-y-actualizaciones.webp", // Imagen de perfil
+    profilePic: "https://www.solojugadores.com/wp-content/uploads/2022/09/Slime-Rancher-2-precio-novedades-y-actualizaciones.webp", 
   });
 
   const handleEditProfile = () => {
@@ -15,14 +14,14 @@ export default function ProfileScreen() {
 
   return (
     <View style={styles.container}>
-      {/* Foto de perfil */}
+    
       <Image source={{ uri: user.profilePic }} style={styles.profileImage} />
 
-      {/* Nombre y correo */}
+      
       <Text style={styles.name}>{user.name}</Text>
       <Text style={styles.email}>{user.email}</Text>
 
-      {/* Botón para editar */}
+    
       <TouchableOpacity style={styles.editButton} onPress={handleEditProfile}>
         <Text style={styles.buttonText}>Editar Perfil</Text>
       </TouchableOpacity>
@@ -30,7 +29,7 @@ export default function ProfileScreen() {
   );
 }
 
-// 🎨 Estilos
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -42,7 +41,7 @@ const styles = StyleSheet.create({
   profileImage: {
     width: 200,
     height: 200,
-    borderRadius: 100, // Hace la imagen circular
+    borderRadius: 100, 
     marginBottom: 15,
   },
   name: {
