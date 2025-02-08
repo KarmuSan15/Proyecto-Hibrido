@@ -4,12 +4,12 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 import { MaterialCommunityIcons } from 'react-native-vector-icons';
 
 
-// Importamos las pantallas
+
 import HomeScreen from './HomeScreen';
 import SlimeRancher1Screen from './SlimeRancher1Screen';
 import SlimeRancher2Screen from './SlimeRancher2Screen';
 import ProfileScreen from './ProfileScreen';
-import SlimePokeScreen from './SlimePokeScreen'; // Importa la nueva pantalla
+import SlimePokeScreen from './SlimePokeScreen'; 
 
 const Drawer = createDrawerNavigator();
 
@@ -23,7 +23,7 @@ export default function App() {
             backgroundColor: '#f0f0f0',
             width: 240,
           },
-          headerTintColor: 'white', // Color blanco para el texto del encabezado
+          headerTintColor: 'white', 
           headerTitleStyle: {
             fontWeight: 'bold',
           },
@@ -35,7 +35,7 @@ export default function App() {
           options={{
             drawerIcon: () => <MaterialCommunityIcons name="home" size={24} color="#224934" />,
             headerStyle: {
-              backgroundColor: '#224934', // Deep green cuando estamos en Home
+              backgroundColor: '#224934', 
             },
           }}
         />
@@ -45,7 +45,7 @@ export default function App() {
           options={{
             drawerIcon: () => <MaterialCommunityIcons name="emoticon-happy" size={24} color="#61f8f8" />,
             headerStyle: {
-              backgroundColor: '#61f8f8', // Turquoise cuando estamos en Slime Rancher 1
+              backgroundColor: '#61f8f8', 
             },
           }}
         />
@@ -55,7 +55,7 @@ export default function App() {
           options={{
             drawerIcon: () => <MaterialCommunityIcons name="emoticon-cool" size={24} color="#90e96e" />,
             headerStyle: {
-              backgroundColor: '#90e96e', // Light green cuando estamos en Slime Rancher 2
+              backgroundColor: '#90e96e', 
             },
           }}
         />
@@ -66,7 +66,7 @@ export default function App() {
           options={{
             drawerIcon: () => <MaterialCommunityIcons name="pokeball" size={24} color="#ff78b8" />,
             headerStyle: {
-              backgroundColor: '#ff78b8', // Pink cuando estamos en Slime Poke
+              backgroundColor: '#ff78b8', 
             },
           }}
         />
@@ -76,7 +76,7 @@ export default function App() {
           options={{
             drawerIcon: () => <MaterialCommunityIcons name="account" size={24} color="#fccd4c" />,
             headerStyle: {
-              backgroundColor: '#ff8c32', // Orange cuando estamos en Profile
+              backgroundColor: '#ff8c32', 
             },
           }}
         />
