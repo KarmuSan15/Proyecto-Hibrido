@@ -11,7 +11,7 @@ export default function HomeScreen() {
   const [savedSlimes, setSavedSlimes] = useState([]); 
   const [refreshing, setRefreshing] = useState(false);
 
-  // Función para obtener los datos desde Firebase
+
   const fetchData = async () => {
     setRefreshing(true);
     try {
@@ -19,7 +19,7 @@ export default function HomeScreen() {
       const slimesList = [];
 
       querySnapshot.forEach((doc) => {
-        const slime = { id: doc.id, ...doc.data() }; // Guardamos el ID del documento
+        const slime = { id: doc.id, ...doc.data() }; 
         if (slime.name && slime.image && slime.food && slime.game) {
           slimesList.push(slime);
         }
@@ -38,7 +38,7 @@ export default function HomeScreen() {
     }
   };
 
-  // Función para eliminar un slime de Firebase
+
   const deleteSlime = async (id) => {
     try {
       await deleteDoc(doc(db, "slimesSeleccionados", id));
