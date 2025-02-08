@@ -1,11 +1,11 @@
 import React, { useState } from 'react'; 
 import { View, Text, StyleSheet, FlatList, Image } from 'react-native';
-import slimesRancher1 from './slimesRancher1';  // Importa los datos de slimes
+import slimesRancher1 from './slimesRancher1';  
 
 export default function SlimeRancher1Screen() {
   const renderSlime = ({ item }) => (
     <View style={styles.slimeContainer}>
-      {/* Aquí se usa el `Image` con la URL de la imagen */}
+   
       <Image source={{ uri: item.image }} style={styles.image} />
       <View style={styles.infoContainer}>
         <Text style={styles.name}>{item.name}</Text>
@@ -28,7 +28,7 @@ export default function SlimeRancher1Screen() {
   );
 }
 
-// Estilos
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
   image: {
     width: 80,
     height: 80,
-    borderRadius: 40, // Redondeamos la imagen
+    borderRadius: 40, 
     marginRight: 20,
   },
   infoContainer: {
