@@ -1,7 +1,7 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection, addDoc } from "firebase/firestore";
 
-// Configuración de Firebase
+
 const firebaseConfig = {
   apiKey: "AIzaSyA3vXG45AKSHA-DcI1BjvvBSe6Tgr-QgtA",
   authDomain: "proyectohibridos-1efb7.firebaseapp.com",
@@ -11,11 +11,11 @@ const firebaseConfig = {
   appId: "1:22405540985:web:e01e2901896f07d0b0b8a8",
 };
 
-// Inicializar Firebase
+
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
-// 🔹 Verificar conexión a Firebase
+
 console.log("✅ Firebase conectado correctamente");
 
 export { db, collection, addDoc };
