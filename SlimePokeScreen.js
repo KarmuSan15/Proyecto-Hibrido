@@ -4,28 +4,28 @@ import { RadioButton } from 'react-native-paper';
 import { db } from './firebaseConfig'; 
 import { collection, addDoc, getDocs } from 'firebase/firestore';
 
-// Listas de slimes (asegúrate de tener las listas de ambos juegos)
-import slimesRancher1 from './slimesRancher1';  // Lista de Slimes de Slime Rancher 1
-import slimesRancher2 from './slimesRancher2';  // Lista de Slimes de Slime Rancher 2
 
-const screenWidth = Dimensions.get('window').width; // Obtener el ancho de la pantalla
+import slimesRancher1 from './slimesRancher1';  
+import slimesRancher2 from './slimesRancher2';  
+
+const screenWidth = Dimensions.get('window').width; 
 
 export default function SlimePokeScreen() {
   const [selectedSlime, setSelectedSlime] = useState(null);
   const [confirmationMessage, setConfirmationMessage] = useState("");
-  const [gameSelection, setGameSelection] = useState("Rancher1"); // Selección del juego
+  const [gameSelection, setGameSelection] = useState("Rancher1"); 
 
-  // Cambiar de juego y limpiar la selección de slime
+
   const handleGameSelection = (game) => {
     setGameSelection(game);
-    setSelectedSlime(null); // Limpiar la selección de slime al cambiar de juego
+    setSelectedSlime(null);
   };
 
   const handleSelectSlime = (id) => {
-    setSelectedSlime(selectedSlime === id ? null : id); // Alternar la selección
+    setSelectedSlime(selectedSlime === id ? null : id); 
   };
 
-  // Guardar slime en Firebase
+
   const saveSelectedSlimeToFirebase = async () => {
     if (selectedSlime === null) {
       alert("¡Por favor selecciona un slime antes de guardar!");
@@ -51,7 +51,7 @@ export default function SlimePokeScreen() {
         name: slime.name,
         image: slime.image,
         food: slime.food,
-        game: slime.game,  // Guardar el campo 'game'
+        game: slime.game,  
         timestamp: new Date(),
       };
 
@@ -82,7 +82,7 @@ export default function SlimePokeScreen() {
       <Text style={styles.title}>Slime Poke</Text>
       <Text style={styles.description}>Selecciona el slime que quieres guardar:</Text>
 
-      {/* Control para cambiar entre Rancher 1 y 2 */}
+      
       <View style={styles.segmentedControlContainer}>
         <Button 
           title="Slime Rancher 1" 
@@ -96,12 +96,12 @@ export default function SlimePokeScreen() {
         />
       </View>
 
-      {/* Mensaje de confirmación */}
+      
       {confirmationMessage && (
         <Text style={styles.confirmationMessage}>{confirmationMessage}</Text>
       )}
 
-      {/* Renderizamos la lista de slimes según el juego seleccionado */}
+      
       <FlatList
         data={gameSelection === "Rancher1" ? slimesRancher1 : slimesRancher2}
         keyExtractor={(item) => item.id.toString()}
