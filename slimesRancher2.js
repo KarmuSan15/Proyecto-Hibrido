@@ -6,8 +6,8 @@ const slimesRancher2 = [
     diet: 'Omnívoro',
     slimeType: 'Docil',
     favoriteToy: 'Pelota',
-    image: 'https://static.wikia.nocookie.net/slimerancher/images/e/e0/SlimePinkSR2.png/revision/latest?cb=20220922201720',  // Aquí usas la URL de la imagen
-    game: 'Slime Rancher 2', // Añadido el campo 'game' con el valor 'Rancher1'
+    image: 'https://static.wikia.nocookie.net/slimerancher/images/e/e0/SlimePinkSR2.png/revision/latest?cb=20220922201720',  
+    game: 'Slime Rancher 2', 
   },
   {
       id: '02',
@@ -16,8 +16,8 @@ const slimesRancher2 = [
       diet: 'Frugívoro',
       slimeType: 'Docil',
       favoriteToy: 'Lampara',
-      image: 'https://static.wikia.nocookie.net/slimerancher/images/8/81/SlimePhosphorSR2.png/revision/latest?cb=20220922201712',  // Aquí usas la URL de la imagen
-      game: 'Slime Rancher 2', // Añadido el campo 'game' con el valor 'Rancher1'
+      image: 'https://static.wikia.nocookie.net/slimerancher/images/8/81/SlimePhosphorSR2.png/revision/latest?cb=20220922201712',  
+      game: 'Slime Rancher 2', 
     },
     {
       id: '03',
@@ -26,8 +26,8 @@ const slimesRancher2 = [
       diet: 'Herbívoro',
       slimeType: 'Dañino',
       favoriteToy: 'Tambor',
-      image: 'https://static.wikia.nocookie.net/slimerancher/images/4/4e/SlimeRockSR2.png/revision/latest?cb=20220922201744',  // Aquí usas la URL de la imagen
-      game: 'Slime Rancher 2', // Añadido el campo 'game' con el valor 'Rancher1'
+      image: 'https://static.wikia.nocookie.net/slimerancher/images/4/4e/SlimeRockSR2.png/revision/latest?cb=20220922201744', 
+      game: 'Slime Rancher 2',
     },
     {
       id: '04',
@@ -36,8 +36,8 @@ const slimesRancher2 = [
       diet: 'Frugívoro',
       slimeType: 'Docil',
       favoriteToy: 'Abeja',
-      image: 'https://static.wikia.nocookie.net/slimerancher/images/f/f8/SlimeHoneySR2.png/revision/latest?cb=20220922201637',  // Aquí usas la URL de la imagen
-      game: 'Slime Rancher 2', // Añadido el campo 'game' con el valor 'Rancher1'
+      image: 'https://static.wikia.nocookie.net/slimerancher/images/f/f8/SlimeHoneySR2.png/revision/latest?cb=20220922201637', 
+      game: 'Slime Rancher 2',
     },
     {
       id: '05',
@@ -46,8 +46,8 @@ const slimesRancher2 = [
       diet: 'Carnívoro',
       slimeType: 'Docil',
       favoriteToy: 'Ovillo de lana',
-      image: 'https://static.wikia.nocookie.net/slimerancher/images/a/a2/SlimeTabbySR2.png/revision/latest?cb=20220922201751',  // Aquí usas la URL de la imagen
-      game: 'Slime Rancher 2', // Añadido el campo 'game' con el valor 'Rancher1'
+      image: 'https://static.wikia.nocookie.net/slimerancher/images/a/a2/SlimeTabbySR2.png/revision/latest?cb=20220922201751', 
+      game: 'Slime Rancher 2',
     },
     {
       id: '06',
@@ -56,8 +56,8 @@ const slimesRancher2 = [
       diet: 'Omnívoro',
       slimeType: 'Docil',
       favoriteToy: 'Patito',
-      image: 'https://static.wikia.nocookie.net/slimerancher/images/9/9e/SlimePuddleSR2.png/revision/latest?cb=20220922201728',  // Aquí usas la URL de la imagen
-      game: 'Slime Rancher 2', // Añadido el campo 'game' con el valor 'Rancher1'
+      image: 'https://static.wikia.nocookie.net/slimerancher/images/9/9e/SlimePuddleSR2.png/revision/latest?cb=20220922201728',  
+      game: 'Slime Rancher 2', 
     },
     {
       id: '07',
@@ -66,8 +66,8 @@ const slimesRancher2 = [
       diet: 'Carnívoro',
       slimeType: 'Docil',
       favoriteToy: 'Peluche de gallina',
-      image: 'https://static.wikia.nocookie.net/slimerancher/images/1/1e/SlimeHunterSR2.png/revision/latest?cb=20220922201647',  // Aquí usas la URL de la imagen
-      game: 'Slime Rancher 2', // Añadido el campo 'game' con el valor 'Rancher1'
+      image: 'https://static.wikia.nocookie.net/slimerancher/images/1/1e/SlimeHunterSR2.png/revision/latest?cb=20220922201647',  
+      game: 'Slime Rancher 2', 
     },
     {
       id: '08',
@@ -76,8 +76,8 @@ const slimesRancher2 = [
       diet: 'Herbívoro',
       slimeType: 'Docil',
       favoriteToy: 'Pelota',
-      image: 'https://static.wikia.nocookie.net/slimerancher/images/3/3c/SlimeCottonSR2.png/revision/latest?cb=20220922201549',  // Aquí usas la URL de la imagen
-      game: 'Slime Rancher 2', // Añadido el campo 'game' con el valor 'Rancher1'
+      image: 'https://static.wikia.nocookie.net/slimerancher/images/3/3c/SlimeCottonSR2.png/revision/latest?cb=20220922201549',  
+      game: 'Slime Rancher 2',
     },
     {
       id: '09',
@@ -86,8 +86,8 @@ const slimesRancher2 = [
       diet: 'Frugívoro',
       slimeType: 'Elemental',
       favoriteToy: 'Torbellino',
-      image: 'https://static.wikia.nocookie.net/slimerancher/images/e/e5/IconSlimeDervishSR2.png/revision/latest?cb=20220929193455',  // Aquí usas la URL de la imagen
-      game: 'Slime Rancher 2', // Añadido el campo 'game' con el valor 'Rancher1'
+      image: 'https://static.wikia.nocookie.net/slimerancher/images/e/e5/IconSlimeDervishSR2.png/revision/latest?cb=20220929193455', 
+      game: 'Slime Rancher 2', 
     },
     {
       id: '010',
@@ -96,8 +96,8 @@ const slimesRancher2 = [
       diet: 'Herbívoro',
       slimeType: 'Normal',
       favoriteToy: 'Pelota con Flores',
-      image: 'https://static.wikia.nocookie.net/slimerancher/images/1/15/IconSlimeTangleSR2.png/revision/latest?cb=20231118180241',  // Aquí usas la URL de la imagen
-      game: 'Slime Rancher 2', // Añadido el campo 'game' con el valor 'Rancher1'
+      image: 'https://static.wikia.nocookie.net/slimerancher/images/1/15/IconSlimeTangleSR2.png/revision/latest?cb=20231118180241',  
+      game: 'Slime Rancher 2', 
     },
     {
       id: '011',
@@ -106,8 +106,8 @@ const slimesRancher2 = [
       diet: 'Carnívoro',
       slimeType: 'Normal',
       favoriteToy: 'Peluche de Estego',
-      image: 'https://static.wikia.nocookie.net/slimerancher/images/7/70/IconSlimeSaberSR2.png/revision/latest?cb=20230218181101',  // Aquí usas la URL de la imagen
-      game: 'Slime Rancher 2', // Añadido el campo 'game' con el valor 'Rancher1'
+      image: 'https://static.wikia.nocookie.net/slimerancher/images/7/70/IconSlimeSaberSR2.png/revision/latest?cb=20230218181101',  
+      game: 'Slime Rancher 2',
     },
     {
       id: '012',
@@ -116,8 +116,8 @@ const slimesRancher2 = [
       diet: 'Carnívoro',
       slimeType: 'Explosivo',
       favoriteToy: 'Pelota Bomba',
-      image: 'https://static.wikia.nocookie.net/slimerancher/images/1/14/SlimeBoomSR2.png/revision/latest?cb=20220922201543',  // Aquí usas la URL de la imagen
-      game: 'Slime Rancher 2', // Añadido el campo 'game' con el valor 'Rancher1'
+      image: 'https://static.wikia.nocookie.net/slimerancher/images/1/14/SlimeBoomSR2.png/revision/latest?cb=20220922201543', 
+      game: 'Slime Rancher 2', 
     },
     {
       id: '013',
@@ -126,8 +126,8 @@ const slimesRancher2 = [
       diet: 'Herbívoro',
       slimeType: 'Normal',
       favoriteToy: 'Pelota de Cristal',
-      image: 'https://static.wikia.nocookie.net/slimerancher/images/1/16/SlimeCrystalSR2.png/revision/latest?cb=20220922201556',  // Aquí usas la URL de la imagen
-      game: 'Slime Rancher 2', // Añadido el campo 'game' con el valor 'Rancher1'
+      image: 'https://static.wikia.nocookie.net/slimerancher/images/1/16/SlimeCrystalSR2.png/revision/latest?cb=20220922201556', 
+      game: 'Slime Rancher 2',
     },
     {
       id: '014',
@@ -136,8 +136,8 @@ const slimesRancher2 = [
       diet: 'Cenizas',
       slimeType: 'Elemental',
       favoriteToy: 'Antorcha',
-      image: 'https://static.wikia.nocookie.net/slimerancher/images/5/5c/SlimeFireSR2.png/revision/latest?cb=20220922201605',  // Aquí usas la URL de la imagen
-      game: 'Slime Rancher 2', // Añadido el campo 'game' con el valor 'Rancher1'
+      image: 'https://static.wikia.nocookie.net/slimerancher/images/5/5c/SlimeFireSR2.png/revision/latest?cb=20220922201605',  
+      game: 'Slime Rancher 2',
     },
     {
       id: '015',
@@ -146,8 +146,8 @@ const slimesRancher2 = [
       diet: '❌',
       slimeType: 'Especial',
       favoriteToy: '❌',
-      image: 'https://static.wikia.nocookie.net/slimerancher/images/6/6a/SlimeGoldSR2.png/revision/latest?cb=20220922201628',  // Aquí usas la URL de la imagen
-      game: 'Slime Rancher 2', // Añadido el campo 'game' con el valor 'Rancher1'
+      image: 'https://static.wikia.nocookie.net/slimerancher/images/6/6a/SlimeGoldSR2.png/revision/latest?cb=20220922201628',  
+      game: 'Slime Rancher 2', 
     },
     {
       id: '016',
@@ -156,8 +156,8 @@ const slimesRancher2 = [
       diet: 'Carnívoro',
       slimeType: 'Especial',
       favoriteToy: '❌',
-      image: 'https://static.wikia.nocookie.net/slimerancher/images/4/41/SlimeLuckySR2.png/revision/latest?cb=20220922201656',  // Aquí usas la URL de la imagen
-      game: 'Slime Rancher 2', // Añadido el campo 'game' con el valor 'Rancher1'
+      image: 'https://static.wikia.nocookie.net/slimerancher/images/4/41/SlimeLuckySR2.png/revision/latest?cb=20220922201656',  
+      game: 'Slime Rancher 2', 
     },
     {
       id: '017',
@@ -166,8 +166,8 @@ const slimesRancher2 = [
       diet: 'Nectarívoro',
       slimeType: '  Docil',
       favoriteToy: 'Peluche de oruga',
-      image: 'https://static.wikia.nocookie.net/slimerancher/images/e/e2/SlimeFlutterSR2.png/revision/latest?cb=20220922201612',  // Aquí usas la URL de la imagen
-      game: 'Slime Rancher 2', // Añadido el campo 'game' con el valor 'Rancher1'
+      image: 'https://static.wikia.nocookie.net/slimerancher/images/e/e2/SlimeFlutterSR2.png/revision/latest?cb=20220922201612',  
+      game: 'Slime Rancher 2', 
     },
     {
       id: '018',
@@ -176,8 +176,8 @@ const slimesRancher2 = [
       diet: 'Frugívoro',
       slimeType: ' Docil',
       favoriteToy: 'Peluche de oruga',
-      image: 'https://static.wikia.nocookie.net/slimerancher/images/b/b5/SlimeBattySR2.png/revision/latest?cb=20220922201535',  // Aquí usas la URL de la imagen
-      game: 'Slime Rancher 2',// Añadido el campo 'game' con el valor 'Rancher1'
+      image: 'https://static.wikia.nocookie.net/slimerancher/images/b/b5/SlimeBattySR2.png/revision/latest?cb=20220922201535', 
+      game: 'Slime Rancher 2',
     },
     {
       id: '019',
@@ -186,8 +186,8 @@ const slimesRancher2 = [
       diet: 'Carnívoro',
       slimeType: ' Docil',
       favoriteToy: 'Pelota',
-      image: 'https://static.wikia.nocookie.net/slimerancher/images/8/8f/SlimeAnglerSR2.png/revision/latest?cb=20220922201529',  // Aquí usas la URL de la imagen
-      game: 'Slime Rancher 2', // Añadido el campo 'game' con el valor 'Rancher1'
+      image: 'https://static.wikia.nocookie.net/slimerancher/images/8/8f/SlimeAnglerSR2.png/revision/latest?cb=20220922201529', 
+      game: 'Slime Rancher 2', 
     },
     {
       id: '020',
@@ -196,8 +196,8 @@ const slimesRancher2 = [
       diet: 'Omnívoro',
       slimeType: 'Docil',
       favoriteToy: 'Cubo de basura',
-      image: 'https://static.wikia.nocookie.net/slimerancher/images/e/ed/SlimeRingtailSR2.png/revision/latest?cb=20220922201737',  // Aquí usas la URL de la imagen
-      game: 'Slime Rancher 2', // Añadido el campo 'game' con el valor 'Rancher1'
+      image: 'https://static.wikia.nocookie.net/slimerancher/images/e/ed/SlimeRingtailSR2.png/revision/latest?cb=20220922201737', 
+      game: 'Slime Rancher 2', 
     },
     {
       id: '021',
@@ -206,8 +206,8 @@ const slimesRancher2 = [
       diet: '❌',
       slimeType: 'Docil',
       favoriteToy: 'Cubo de basura',
-      image: 'https://static.wikia.nocookie.net/slimerancher/images/a/ac/SlimeYolkySR2.png/revision/latest?cb=20230216213335',  // Aquí usas la URL de la imagen
-      game: 'Slime Rancher 2', // Añadido el campo 'game' con el valor 'Rancher1'
+      image: 'https://static.wikia.nocookie.net/slimerancher/images/a/ac/SlimeYolkySR2.png/revision/latest?cb=20230216213335', 
+      game: 'Slime Rancher 2',
     },
     {
       id: '022',
@@ -216,8 +216,8 @@ const slimesRancher2 = [
       diet: 'Frugívoro',
       slimeType: 'Docil',
       favoriteToy: '❌',
-      image: 'https://static.wikia.nocookie.net/slimerancher/images/5/59/SlimeTwinSR2.png/revision/latest?cb=20241212184432',  // Aquí usas la URL de la imagen
-      game: 'Slime Rancher 2', // Añadido el campo 'game' con el valor 'Rancher1'
+      image: 'https://static.wikia.nocookie.net/slimerancher/images/5/59/SlimeTwinSR2.png/revision/latest?cb=20241212184432', 
+      game: 'Slime Rancher 2', 
     },
     {
       id: '023',
@@ -226,8 +226,8 @@ const slimesRancher2 = [
       diet: 'Carnívoro',
       slimeType: 'Docil',
       favoriteToy: '❌',
-      image: 'https://static.wikia.nocookie.net/slimerancher/images/1/13/SlimeSloomberSR2.png/revision/latest?cb=20241212183024',  // Aquí usas la URL de la imagen
-      game: 'Slime Rancher 2', // Añadido el campo 'game' con el valor 'Rancher1'
+      image: 'https://static.wikia.nocookie.net/slimerancher/images/1/13/SlimeSloomberSR2.png/revision/latest?cb=20241212183024', 
+      game: 'Slime Rancher 2', 
     },
     {
       id: '024',
@@ -236,8 +236,8 @@ const slimesRancher2 = [
       diet: '❌',
       slimeType: 'Especial',
       favoriteToy: '❌',
-      image: 'https://static.wikia.nocookie.net/slimerancher/images/a/a7/SlimeShadowSR2.png/revision/latest?cb=20241212184407',  // Aquí usas la URL de la imagen
-      game: 'Slime Rancher 2', // Añadido el campo 'game' con el valor 'Rancher1'
+      image: 'https://static.wikia.nocookie.net/slimerancher/images/a/a7/SlimeShadowSR2.png/revision/latest?cb=20241212184407', 
+      game: 'Slime Rancher 2', 
     },
     {
       id: '025',
@@ -246,8 +246,8 @@ const slimesRancher2 = [
       diet: 'Carnívoro',
       slimeType: ' Docil',
       favoriteToy: 'Pelota',
-      image: 'https://static.wikia.nocookie.net/slimerancher/images/7/75/SlimeTarrSR2.png/revision/latest?cb=20220922201758',  // Aquí usas la URL de la imagen
-      game: 'Slime Rancher 2', // Añadido el campo 'game' con el valor 'Rancher1'
+      image: 'https://static.wikia.nocookie.net/slimerancher/images/7/75/SlimeTarrSR2.png/revision/latest?cb=20220922201758', 
+      game: 'Slime Rancher 2', 
     },
 ];
 
